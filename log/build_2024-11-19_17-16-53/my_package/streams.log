@@ -1,0 +1,48 @@
+[0.012s] Invoking command in '/home/ubuntu-vm/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu-vm/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu-vm/dev_ws/install/my_package
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.201s] -- The CXX compiler identification is GNU 11.4.0
+[0.208s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.286s] -- Detecting CXX compiler ABI info
+[0.364s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.370s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.372s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.491s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.538s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.559s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.617s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.618s] -- Added test 'lint_cmake' to check CMake code style
+[0.618s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.618s] -- Added test 'xmllint' to check XML markup files
+[0.621s] -- Configuring done
+[0.623s] -- Generating done
+[0.623s] -- Build files have been written to: /home/ubuntu-vm/dev_ws/build/my_package
+[0.628s] Invoked command in '/home/ubuntu-vm/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu-vm/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu-vm/dev_ws/install/my_package
+[0.629s] Invoking command in '/home/ubuntu-vm/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu-vm/dev_ws/build/my_package -- -j8 -l8
+[0.666s] Invoked command in '/home/ubuntu-vm/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu-vm/dev_ws/build/my_package -- -j8 -l8
+[0.699s] Invoking command in '/home/ubuntu-vm/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu-vm/dev_ws/build/my_package
+[0.707s] -- Install configuration: ""
+[0.707s] -- Execute custom install script
+[0.707s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/launch/listener.launch.py
+[0.714s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/launch/talker.launch.py
+[0.723s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[0.732s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[0.742s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[0.750s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[0.757s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/environment/path.sh
+[0.766s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/environment/path.dsv
+[0.774s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/local_setup.bash
+[0.781s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/local_setup.sh
+[0.789s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/local_setup.zsh
+[0.798s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/local_setup.dsv
+[0.806s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/package.dsv
+[0.816s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[0.825s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[0.835s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[0.845s] -- Symlinking: /home/ubuntu-vm/dev_ws/install/my_package/share/my_package/package.xml
+[0.856s] Invoked command in '/home/ubuntu-vm/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu-vm/dev_ws/build/my_package
